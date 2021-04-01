@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".ShowHouseActivity">
+
+
+
+    <TextView
+        android:id="@+id/text_house_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your ideal house is:"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"/>
+
+    <ImageView
+        android:id="@+id/picture_house_show"
+        android:layout_width="334dp"
+        android:layout_height="439dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kucanadlanu1" />
+
+    <TextView
+        android:id="@+id/text_house_show1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this picture:"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/picture_house_show"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button_show_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_house_show1"
+        android:text="Try again"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+
+
+
+</RelativeLayout>
